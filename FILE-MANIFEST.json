@@ -1,0 +1,199 @@
+{
+  "project": "gesture-galaxy-touchdesigner",
+  "version": "1.0.0",
+  "scope": "Only public project files; excludes runtime, dependencies, caches and raw camera data.",
+  "files": {
+    ".gitattributes": {
+      "bytes": 237,
+      "sha256": "86d3857c446d7958f82e5fba44f76005f70b6848eb7f5d0a31686e660562eefa"
+    },
+    ".github/workflows/tests.yml": {
+      "bytes": 634,
+      "sha256": "85c43defa62a16fbc170bf57dd9ee599845b26039709d2f9da151950ebb2b81e"
+    },
+    ".gitignore": {
+      "bytes": 523,
+      "sha256": "01ba9fdfae065113203bd6eea051b51c4a8802b31c9d7105afb88fd46488e776"
+    },
+    "GestureParticles.toe": {
+      "bytes": 327586,
+      "sha256": "3d13e099e966af822ddf18ec4b0809dec01dc5c31693ba3fe7f8444f64a6d6d6"
+    },
+    "LICENSE": {
+      "bytes": 1093,
+      "sha256": "94cab4174919e47a3a8aebbeb909f5c4d705aa9995d012451743b7d78de2d192"
+    },
+    "README.md": {
+      "bytes": 7044,
+      "sha256": "04650a1badcfc45acbad1cf542bfcba4d23797a311a3f5a97504cfcdb0806243"
+    },
+    "RELEASE_NOTES.md": {
+      "bytes": 1216,
+      "sha256": "48a4e51d7fbedf25107d7947bdd7b5c57183976b9b6ce92a2670861883d3acad"
+    },
+    "Setup-Dependencies.ps1": {
+      "bytes": 4411,
+      "sha256": "bbcc6a40e2376a694f4b7af26ab300bd5f10c5b1be1cba6a50356378f6c872cb"
+    },
+    "Start-GestureParticles.cmd": {
+      "bytes": 238,
+      "sha256": "fdec8d43d73853ffcee390fc98bc5b3e6dcc8f44726296d82da558e755ad4a8a"
+    },
+    "THIRD_PARTY_LICENSES/NOTICE.txt": {
+      "bytes": 1447,
+      "sha256": "2349649ca278d0ae9cc0b49ebb6897032ac43df83068c3e5f3d4b5f507d95777"
+    },
+    "THIRD_PARTY_LICENSES/mediapipe-touchdesigner-MIT.txt": {
+      "bytes": 1075,
+      "sha256": "0c93882a07e6f0a11235639a05535b83e78b5ed7cb99028180864211f6c04cb8"
+    },
+    "build/Bootstrap.toe": {
+      "bytes": 1434,
+      "sha256": "8eb0f2b540131f674111ff42e6c415bdc404f2e3d5e108cdd744a268d62758e5"
+    },
+    "dependencies.json": {
+      "bytes": 2287,
+      "sha256": "17401547abb59fff28120975f4cadc70ba7a691efa8855bfb9f0765e001dbfbc"
+    },
+    "docs/PACKAGING.md": {
+      "bytes": 1825,
+      "sha256": "eefa46517f0a3eeff3d37934140afa02c39161215a54734ac877998af6ae17cf"
+    },
+    "docs/VALIDATION.md": {
+      "bytes": 1710,
+      "sha256": "bbfa0d780761f38e722ade713f3d074ca9c350466b1ff3f7aa8f05652e7f1000"
+    },
+    "docs/images/back.png": {
+      "bytes": 2207510,
+      "sha256": "8c9d5468a3ef8a200110ce2749a7928d4c942f73704433288696608e877e1cae"
+    },
+    "docs/images/fist.png": {
+      "bytes": 1355583,
+      "sha256": "8dc61a4297be521890b973a5bb9b2c59346f84303cf416580b7f98ff6a5367c8"
+    },
+    "docs/images/front.png": {
+      "bytes": 2136068,
+      "sha256": "2f5a9fb2d850ddc3614abe39575703f42a06b2e9e09ed440ea510801bb8501e1"
+    },
+    "docs/images/oblique.png": {
+      "bytes": 1785859,
+      "sha256": "03fb8050b25419bfc8b797496a3c5734a42bc0d127d15111b91c6b9e2971ca1a"
+    },
+    "docs/images/palm.png": {
+      "bytes": 2462919,
+      "sha256": "deff54c94b3787eb40f444fd2e079ce2ce98be8adaff691ad1f0338301070a99"
+    },
+    "docs/images/side.png": {
+      "bytes": 1006379,
+      "sha256": "45af068291c989887d4c3a4b9f3ff88a079985f0de11ecbafc04573b02b37ed9"
+    },
+    "docs/validation-summary.json": {
+      "bytes": 816,
+      "sha256": "a44101ad2cd40d69709e4326afeee21882c4a9e2ff2377d4a05405a090c17d15"
+    },
+    "src/bootstrap.py": {
+      "bytes": 1346,
+      "sha256": "ff96e5acd8cba303ba216e7f823b0cf5b484560ef20e496546ba08858a48e42c"
+    },
+    "src/build_controls.py": {
+      "bytes": 2584,
+      "sha256": "90897a243d49714cf3c4e1c1466a50472c1a6354ae20086aaeecd7f0b24d142a"
+    },
+    "src/build_scene.py": {
+      "bytes": 12123,
+      "sha256": "1d19b80498933c0cb15fe861ac0dfe6afd336e4a53e18d927562212dbf038044"
+    },
+    "src/finalize_scene.py": {
+      "bytes": 3048,
+      "sha256": "055dc42ec0be883a26aa93f8f48a36ef8d4c66ca0f83e906b435c6c8efbd5f6b"
+    },
+    "src/galaxy_common.glsl": {
+      "bytes": 2774,
+      "sha256": "4728b096f5c2b09968cf88769baf9f4c3aa317e836d0297a5ff6c99cf333fdc1"
+    },
+    "src/galaxy_composite.frag": {
+      "bytes": 701,
+      "sha256": "bb6ee864e2df2c7b2a7132d838003de758b50eb4fda1904d0b8de704940de64f"
+    },
+    "src/galaxy_nebula.frag": {
+      "bytes": 3946,
+      "sha256": "3acca273196b05ecdcde335abf0f94322ba929e20de80d17dd8528a82aaf7693"
+    },
+    "src/gesture_control.py": {
+      "bytes": 4731,
+      "sha256": "17653cb25107bace038271c110594948fb915a285242e9a937697f8c773e43bd"
+    },
+    "src/orbit_control.py": {
+      "bytes": 3923,
+      "sha256": "44452dd0e737fc91c7b33922cc78eca88f3f9adaacab0d99f9dcae22c3ce50ae"
+    },
+    "src/particles.frag": {
+      "bytes": 287,
+      "sha256": "ae3461bb1ecf999476344b3d7a90706b4f51631d800fbff89ab053a7c4e90a5d"
+    },
+    "src/particles.vert": {
+      "bytes": 2765,
+      "sha256": "ee7f215f3e9fa6a3ea73b7d25c5a3c266447fc1d2a38296546c37e29338566a1"
+    },
+    "src/save_project.py": {
+      "bytes": 1287,
+      "sha256": "47e68f64b0033ab652593794b1b504686ddb894c6ea2d41f7c0d0b32cb0820bf"
+    },
+    "src/shader_source.py": {
+      "bytes": 516,
+      "sha256": "9fc315dbd499249272ee23a67bcf56c54126f13808d742dfa2bbedecea53814c"
+    },
+    "src/td_runtime.py": {
+      "bytes": 21314,
+      "sha256": "ed6790891d194ef2f3961e84745918d2ca89058b069534d198bc4eb885b45375"
+    },
+    "tests/enhanced_checks.py": {
+      "bytes": 2471,
+      "sha256": "30dbe49962d81a3da90f9184034e254f6e9d2378f2c5de8c093eaa9172c6fd10"
+    },
+    "tests/enhanced_cold_reopen.py": {
+      "bytes": 4868,
+      "sha256": "17e7b47498fa4c54711bffa50b0b249562adc50bcca77eb64cfb376615d2bf93"
+    },
+    "tests/enhanced_orbit.py": {
+      "bytes": 2102,
+      "sha256": "1b8015568b496eacd3ada2a18f8bd839974056e0b04dd528f75ad4100a28ae20"
+    },
+    "tests/enhanced_recovery.py": {
+      "bytes": 3427,
+      "sha256": "e0e1b21ef2ae4b9f432efe714b5cc0f0681e286540d8170bf329d15b120715cb"
+    },
+    "tests/enhanced_ui.py": {
+      "bytes": 1860,
+      "sha256": "aa24b449b6cf82aca99364c35144a660e7668ecd2e826aab2975d695aec38739"
+    },
+    "tests/enhanced_views.py": {
+      "bytes": 4994,
+      "sha256": "40300a09329bc119e2c878200a317ba60c4a0f91fc6a14a9c50e160fb67ca027"
+    },
+    "tests/test_gesture_control.py": {
+      "bytes": 2635,
+      "sha256": "5b6a806b65e93ebab7d2eeef7ae32452b0356d4ce546f74cc9d48eb8a98da780"
+    },
+    "tests/test_orbit_control.py": {
+      "bytes": 4469,
+      "sha256": "e3092dc538d37fc6c148ad4aa6a2abace093763909d1f383215eb7ebb7cdc6f1"
+    },
+    "tests/test_project_save.py": {
+      "bytes": 2259,
+      "sha256": "4fd8bc34b472ab859575d85085082003d75c2b09758d5b4f9e7cf1d9dbe7f626"
+    },
+    "tests/test_runtime_metadata.py": {
+      "bytes": 8334,
+      "sha256": "64be8ba4ab51ac33b08c6ae904612eb5d5fb22d1354a5eb33b7015eae040f963"
+    },
+    "tools/launch.ps1": {
+      "bytes": 2203,
+      "sha256": "32433f8136ab229326bac02c86a5047b14933e1636a9927efe81aa41cefe2a34"
+    },
+    "tools/package_release.py": {
+      "bytes": 4587,
+      "sha256": "115b3a5e539aadce4a0033c3692ec95bc07494d04d472818ed09b8cee0a6b921"
+    }
+  }
+}

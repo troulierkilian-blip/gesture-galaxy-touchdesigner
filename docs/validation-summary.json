@@ -1,0 +1,31 @@
+{
+  "measurement_date": "2026-10-23",
+  "hardware": "RTX 3060 Laptop GPU, 6 GB VRAM",
+  "touchdesigner": "2025.33230 Non-Commercial",
+  "camera_input": "1280x720, 30 FPS, integrated webcam",
+  "duration_seconds": 600.02,
+  "samples": 600,
+  "mean_fps": 58.97044781040296,
+  "median_fps": 60.0,
+  "min_fps": 52.1653543305413,
+  "particles": 20000,
+  "output_resolution": [
+    1280,
+    720
+  ],
+  "nebula_resolution": [
+    640,
+    360
+  ],
+  "nebula_steps": 16,
+  "trail": 0.08,
+  "glow": 0.32,
+  "at_least_30fps": true,
+  "valid_completed_run": true,
+  "unit_tests": 30,
+  "native_gesture_simulations": 10,
+  "native_ui_checks": 17,
+  "native_orbit_checks": 14,
+  "render_scenarios": 16,
+  "human_feedback_for_enhanced_release": "Not yet confirmed; simulated checks do not establish real recognition accuracy."
+}

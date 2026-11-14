@@ -1,0 +1,46 @@
+{
+  "repository": "https://github.com/torinmb/mediapipe-touchdesigner",
+  "tag": "v0.6.0",
+  "commit": "bb01606926edeec828cc123e86a4a300bdc96c9b",
+  "assets": [
+    {
+      "name": "mediapipe-v0.6.0-release.zip",
+      "url": "https://github.com/torinmb/mediapipe-touchdesigner/releases/download/v0.6.0/release.zip",
+      "sha256": "f9fef3dbb7b7af4eed126f41351fce640ef9ee1f513878a696f173e53316bf79",
+      "kind": "release_zip",
+      "target": "vendor/mediapipe-v0.6.0"
+    },
+    {
+      "name": "hand_tracking.tox",
+      "url": "https://media.githubusercontent.com/media/torinmb/mediapipe-touchdesigner/bb01606926edeec828cc123e86a4a300bdc96c9b/toxes/hand_tracking.tox",
+      "sha256": "f819f5891993864019c6218251861ed808eb5cc79fdb02092cd4d53f48bedb7d",
+      "kind": "file",
+      "target": "vendor/mediapipe-v0.6.0/toxes/hand_tracking.tox"
+    },
+    {
+      "name": "hand_parser.py",
+      "url": "https://raw.githubusercontent.com/torinmb/mediapipe-touchdesigner/bb01606926edeec828cc123e86a4a300bdc96c9b/td_scripts/hand_tracking2/hand_parser.py",
+      "sha256": "bc0122cae8016e1486b0895068b5dc28e9ed98d84c6d0d9455d5a2a8f9048e7b",
+      "kind": "file",
+      "target": "upstream/td_scripts/hand_tracking2/hand_parser.py"
+    },
+    {
+      "name": "hand_execute.py",
+      "url": "https://raw.githubusercontent.com/torinmb/mediapipe-touchdesigner/bb01606926edeec828cc123e86a4a300bdc96c9b/td_scripts/hand_tracking2/hand_execute.py",
+      "sha256": "63d0634a3e55e1d500e14aacd61eef797bbcf0d83539a02fd5aa4071cc5b4bbb",
+      "kind": "file",
+      "target": "upstream/td_scripts/hand_tracking2/hand_execute.py"
+    },
+    {
+      "name": "hand_maxhands.py",
+      "url": "https://raw.githubusercontent.com/torinmb/mediapipe-touchdesigner/bb01606926edeec828cc123e86a4a300bdc96c9b/td_scripts/hand_tracking2/hand_maxhands.py",
+      "sha256": "ea74fe97563b3e61128562f44834078c93a901b03f851ead90c9280cc434f60c",
+      "kind": "file",
+      "target": "upstream/td_scripts/hand_tracking2/hand_maxhands.py"
+    }
+  ],
+  "installed_checks": {
+    "vendor/mediapipe-v0.6.0/toxes/MediaPipe.tox": "a7800dbf39cc86d61aea8dd5bf90bdf59e46b436dd1dc494d2c4abb871d02911",
+    "vendor/mediapipe-v0.6.0/toxes/hand_tracking.tox": "f819f5891993864019c6218251861ed808eb5cc79fdb02092cd4d53f48bedb7d"
+  }
+}

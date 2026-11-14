@@ -1,0 +1,28 @@
+Gesture Galaxy TouchDesigner - third-party notices
+
+The project's original controllers, scene construction and shaders use the
+root MIT license. That license does not relicense the following dependencies.
+
+MediaPipe TouchDesigner
+  Author: Torin Blankensmith
+  Repository: https://github.com/torinmb/mediapipe-touchdesigner
+  Tag: v0.6.0
+  Commit: bb01606926edeec828cc123e86a4a300bdc96c9b
+  License: MIT, Copyright (c) 2023 Torin Blankensmith.
+  Full text: mediapipe-touchdesigner-MIT.txt in this directory.
+  Adaptation: the delivered project embeds the exact-commit hand parser and
+  execution scripts. The hand component is obtained from that same commit;
+  it was omitted from the upstream release ZIP. No older component is used.
+
+MediaPipe SDK, JavaScript/WASM and pretrained models
+  Distributed by their upstream authors inside the downloaded dependency.
+  Their respective licenses continue to apply. The upstream page carries
+  the MediaPipe Authors' Apache-2.0 notice. Consult the upstream distribution
+  and https://github.com/google-ai-edge/mediapipe for the relevant notices.
+  SDK binaries and model weights are downloaded, not included in this repository.
+
+TouchDesigner
+  Copyright Derivative Inc. Proprietary host software.
+  Download and terms: https://derivative.ca/download
+  It is installed and licensed separately. Its installer, runtime, user account
+  and activation are not included in the repository or release archive.
