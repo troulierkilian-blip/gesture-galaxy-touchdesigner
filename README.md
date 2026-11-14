@@ -96,3 +96,11 @@ GitHub Actions 运行这些纯 Python 测试。`tests/enhanced_*.py` 是 TouchDe
 新增代码与着色器采用 [MIT](LICENSE)。上游 [torinmb/mediapipe-touchdesigner](https://github.com/torinmb/mediapipe-touchdesigner) 固定 **v0.6.0**、提交 `bb01606926edeec828cc123e86a4a300bdc96c9b`，保留 [Torin Blankensmith 的 MIT 许可](THIRD_PARTY_LICENSES/mediapipe-touchdesigner-MIT.txt)。该发行包缺少手部组件，下载脚本从同一提交补齐，未混用旧版组件。
 
 MediaPipe SDK、模型及其他依赖继续适用其上游许可；TouchDesigner 是单独安装和许可的专有软件。参见 [第三方说明](THIRD_PARTY_LICENSES/NOTICE.txt) 与 [固定依赖清单](dependencies.json)。
+
+## 支持项目
+
+如果「手势三维银河」帮到了你，欢迎通过支付宝或微信扫码打赏。感谢你的支持！
+
+| 支付宝 | 微信 |
+| :---: | :---: |
+| <img src="assets/sponsors/alipay.jpg" alt="支付宝收款码" width="220"> | <img src="assets/sponsors/wechat.jpg" alt="微信收款码" width="220"> |
