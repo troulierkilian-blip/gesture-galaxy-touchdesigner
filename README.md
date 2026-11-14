@@ -1,12 +1,16 @@
-# Gesture Galaxy · 手势三维银河
+# Gesture Galaxy · TouchDesigner 手势三维银河
 
-用手掌旋转和移动三维银河，握拳收拢旋臂，张掌舒展星云。暖白银心、四条蓝紫旋臂、八个环绕星团与轻薄云雾全部由程序生成。
+简体中文 · [English](README.en.md)
 
-An interactive 3D spiral galaxy for TouchDesigner, controlled by MediaPipe hand tracking. Includes volumetric nebulae, eight surrounding star clusters, gesture rotation, translation, zoom and palette switching.
+握拳时，四条旋臂收拢到银心；张开手，蓝紫色星云重新舒展开。这个 Windows TouchDesigner 工程使用 MediaPipe 追踪手掌，可以旋转、平移和缩放整座银河，也可以先用鼠标体验。
 
-![手势银河实际渲染](docs/images/oblique.png)
+[下载最新版工程包](https://github.com/troulierkilian-blip/gesture-galaxy-touchdesigner/releases/latest) · [Windows 安装步骤](#首次运行windows) · [验收记录](docs/VALIDATION.md) · [MIT 许可](LICENSE)
 
-[下载 v1.0.0 工程包](https://github.com/troulierkilian-blip/gesture-galaxy-touchdesigner/releases/tag/v1.0.0) · [历史验收结果](docs/VALIDATION.md) · [MIT 许可](LICENSE)
+| 握拳 · 旋臂收拢 | 张掌 · 星云舒展 |
+| :---: | :---: |
+| ![固定握拳输入下，主银河收拢，外围星团仍可见](docs/images/fist.png) | ![固定张掌输入下，旋臂向外展开](docs/images/palm.png) |
+
+两张图均来自工程在固定输入状态下的 GPU 渲染。装好工程后，在右侧面板将「输入方式」设为「鼠标模拟」：在银河上移动鼠标旋转视角，按左键模拟握拳，按右键模拟张掌。第一次看效果可以从这里开始。
 
 ## 首次运行（Windows）
 
@@ -71,9 +75,7 @@ $env:TOUCHDESIGNER_EXE = 'C:\Program Files\Derivative\TouchDesigner\bin\TouchDes
 | --- | --- |
 | ![正面](docs/images/front.png) | ![侧面](docs/images/side.png) |
 
-| 握拳收拢 | 张掌舒展 |
-| --- | --- |
-| ![收拢](docs/images/fist.png) | ![舒展](docs/images/palm.png) |
+![初始斜视角下的暖白银心、蓝紫旋臂与外围星团](docs/images/oblique.png)
 
 ## 源码与重建
 

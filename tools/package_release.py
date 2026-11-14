@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 VERSION = '1.0.0'
 TOP = 'gesture-galaxy-touchdesigner'
 ROOT_FILES = {
-    '.gitignore', '.gitattributes', 'README.md', 'LICENSE', 'RELEASE_NOTES.md',
+    '.gitignore', '.gitattributes', 'README.md', 'README.en.md', 'LICENSE', 'RELEASE_NOTES.md',
     'dependencies.json', 'Setup-Dependencies.ps1', 'Start-GestureParticles.cmd',
     'GestureParticles.toe',
 }
